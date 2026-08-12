@@ -1,0 +1,23 @@
+.app {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.background {
+  position: fixed;
+  inset: 0;
+
+  background-image: url("/images/truck.jpg");
+  background-size: cover;
+  background-position: center;
+
+  z-index: -2;
+}
+
+.background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
