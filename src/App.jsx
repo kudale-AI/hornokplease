@@ -42,7 +42,7 @@ function App() {
         playsInline
       >
         <source
-          src="./public/video/bg.mp4"
+          src="https://ik.imagekit.io/krishnaji/horn-ok-please/bg.mp4"
           type="video/mp4"
         />
       </video>
